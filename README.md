@@ -1,7 +1,4 @@
 # ImageVectorSearch
-<<<<<<< HEAD
-ImageVectorSearch is a simple yet powerful open-source image search engine that leverages image embeddings for efficient and accurate searches. This project allows users to generate embeddings for images and search through a vector database, enabling quick and precise image retrieval based on content similarity.
-=======
 
 ImageVectorSearch is an open-source project that provides a reverse image search engine based on image embeddings. It uses ResNet50 for image embedding generation and Milvus for efficient and scalable image similarity searches.
 
@@ -83,4 +80,3 @@ Replace <MILVUS_HOST>, <MILVUS_PORT>, and other placeholders with your actual Mi
 ## Vector Database
 Install and run Milvus by following the instructions in the 
 Milvus Documentation https://milvus.io/docs/install_standalone-docker.md
->>>>>>> development
