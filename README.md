@@ -40,9 +40,8 @@ ImageVectorSearch leverages state-of-the-art deep learning models to generate im
 
 ## Usage
 ### Generate Image Embeddings
+To generate image embeddings for a given URL, use the following code snippet:
 
-    To generate image embeddings for a given URL, use the following code snippet:
-    ```bash
     from image_embedding import ImageEmbed
     image_embed = ImageEmbed()
     embedding = image_embed.image_embedding("<IMAGE_URL>")
@@ -50,16 +49,15 @@ ImageVectorSearch leverages state-of-the-art deep learning models to generate im
    
 ### Load Data into Milvus
 
-   To load and process data and insert it into Milvus, run the following code:
-    ```bash
+To load and process data and insert it into Milvus, run the following code:
+
     from image_embedding import ImageEmbed
     image_embed = ImageEmbed()
     image_embed.load_data()
 
 ### Search for Similar Images 
+ To search for similar images given a URL, use the following code:
 
-    To search for similar images given a URL, use the following code:
-    ```bash
     from image_embedding import ImageEmbed
     image_embed = ImageEmbed()
     image_embed.search_image("<IMAGE_URL>")
